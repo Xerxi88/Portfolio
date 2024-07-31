@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "titulo": "CP-Desarollo de apliciones web",
+        "centro": "The Corner Centre d'Estudis",
+        "lenguajes": [
+            "Html & Css",
+            "JavaScript",
+            "MySQL",
+            "Java",
+            "Node.js",
+            "Postman",
+            "AWS"
+        ],
+        "years": "FEB - SEPTIEMBRE 2022",
+        "descripcion": "descripcion-corner"
+    },
+    {
+        "id": 2,
+        "titulo": "Desarollo de apliciones web",
+        "centro": "Centres Innovació i Formació Ocupacional - CIFO l'Hospitalet",
+        "lenguajes": [
+            "Html & Css",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "JQuery",
+            "Typescript",
+            "Git",
+            "Postman",
+            "React Native"
+        ],
+        "years": "NOV 2022 - FEB 2023",
+        "descripcion": "descripcion-cifo"
+    },
+    {
+        "id": 3,
+        "titulo": "Curso online React.js",
+        "centro": "IT Academy - Barcelona Activa",
+        "lenguajes": [
+            "Html & Css",
+            "JavaScript",
+            "React",
+            "Styled-components",
+            "Bootstrap",
+            "React Native",
+            "Agile",
+            "Postman",
+            "Swagger",
+            "Figma"
+        ],
+        "years": "OCT 2022 - MAY 2023",
+        "descripcion": "descripcion-academy"
+    },
+    {
+        "id": 4,
+        "titulo": "FullStack Developer",
+        "centro": "Centres Innovació i Formació Ocupacional - CIFO l'Hospitalet",
+        "lenguajes": [
+            "Php",
+            "Laravel",
+            "Typescript",
+            "Angular.js",
+            "MySQL",
+            "PhpMyAdmin",
+            "Postman"
+        ],
+        "years": "NOV 2023 - MAR 2024",
+        "descripcion": "descripcion-fullstack"
+    }
+]

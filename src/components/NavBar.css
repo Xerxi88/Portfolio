@@ -1,0 +1,43 @@
+nav {
+  grid-column: 2;
+  justify-self: center;
+  padding: 5px;
+  margin: 0 10px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  background-color: aqua;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+nav ul li.active {
+  color: aqua;
+}
+
+nav ul li:hover::after,
+nav ul li.active::after {
+  width: 100%;
+}

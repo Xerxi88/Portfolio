@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "HTML",
+        "icono": "src/assets/icons/html.png",
+        "url": "https://developer.mozilla.org/es/docs/Web/HTML"
+    },
+    {
+        "id": 2,
+        "nombre": "CSS",
+        "icono": "src/assets/icons/css.png",
+        "url": "https://developer.mozilla.org/es/docs/Web/CSS"
+    },
+    {
+        "id": 3,
+        "nombre": "Javascript",
+        "icono": "src/assets/icons/javascript.png",
+        "url": "https://www.javascript.com/"
+    },
+    {
+        "id": 4,
+        "nombre": "React",
+        "icono": "src/assets/icons/react.png",
+        "url": "https://es.react.dev/"
+    },
+    {
+        "id": 5,
+        "nombre": "React Native",
+        "icono": "src/assets/icons/react_native.png",
+        "url": "https://reactnative.dev/"
+    },
+    {
+        "id": 6,
+        "nombre": "PHP",
+        "icono": "src/assets/icons/php.png",
+        "url": "https://www.php.net/"
+    },
+    {
+        "id": 7,
+        "nombre": "Laravel",
+        "icono": "src/assets/icons/laravel.png",
+        "url": "https://laravel.com/"
+    },
+    {
+        "id": 8,
+        "nombre": "Postman",
+        "icono": "src/assets/icons/postman.png",
+        "url": "https://www.postman.com/"
+    },
+    {
+        "id": 9,
+        "nombre": "Figma",
+        "icono": "src/assets/icons/figma.png",
+        "url": "https://www.figma.com/"
+    },
+    {
+        "id": 10,
+        "nombre": "Swagger",
+        "icono": "src/assets/icons/swagger.png",
+        "url": "https://swagger.io/"
+    },
+    {
+        "id": 11,
+        "nombre": "Bootstrap",
+        "icono": "src/assets/icons/bootstrap.png",
+        "url": "https://getbootstrap.com/"
+    },
+    {
+        "id": 12,
+        "nombre": "Angular",
+        "icono": "src/assets/icons/angular.png",
+        "url": "https://angular.dev/"
+    },
+    {
+        "id": 13,
+        "nombre": "Typescript",
+        "icono": "src/assets/icons/typescript.png",
+        "url": "https://www.typescriptlang.org/"
+    },
+    {
+        "id": 14,
+        "nombre": "Git",
+        "icono": "src/assets/icons/git.png",
+        "url": "https://git-scm.com/"
+    },
+    {
+        "id": 15,
+        "nombre": "GitHub",
+        "icono": "src/assets/icons/github.png",
+        "url": "https://github.com/"
+    },
+    {
+        "id": 16,
+        "nombre": "Java",
+        "icono": "src/assets/icons/java.png",
+        "url": "https://www.java.com/"
+    },
+    {
+        "id": 17,
+        "nombre": "Node.js",
+        "icono": "src/assets/icons/node.png",
+        "url": "https://nodejs.org/"
+    },
+    {
+        "id": 18,
+        "nombre": "MySQL",
+        "icono": "src/assets/icons/mysql.png",
+        "url": "https://www.mysql.com/"
+    },
+    {
+        "id": 19,
+        "nombre": "AWS",
+        "icono": "src/assets/icons/aws.png",
+        "url": "https://aws.amazon.com/es/"
+    },
+    {
+        "id": 20,
+        "nombre": "Vitest",
+        "icono": "src/assets/icons/vitest.svg",
+        "url": "https://aws.amazon.com/es/"
+    }
+]

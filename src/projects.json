@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nombre": "App NBA Scores",
-        "picture": "src/assets/nbaScores.jpg",
+        "picture": "/assets/nbaScores.jpg",
         "lenguajes": [
             "html",
             "css",
@@ -16,7 +16,7 @@
     {
         "id": 2,
         "nombre": "App Starships of Star Wars",
-        "picture": "src/assets/starWars.jpg",
+        "picture": "/assets/starWars.jpg",
         "lenguajes": [
             "html",
             "css",
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "nombre": "App Pokedex",
-        "picture": "src/assets/pokeApi.jpg",
+        "picture": "/assets/pokeApi.jpg",
         "lenguajes": [
             "html",
             "css",
@@ -46,7 +46,7 @@
     {
         "id": 4,
         "nombre": "Clone web Tesla && La Velada",
-        "picture": "src/assets/tesla&&velada.jpg",
+        "picture": "/assets/tesla&&velada.jpg",
         "lenguajes": [
             "javaScript",
             "astro",
@@ -61,7 +61,7 @@
     {
         "id": 5,
         "nombre": "App Hambgers",
-        "picture": "src/assets/hambgers.png",
+        "picture": "/assets/hambgers.png",
         "lenguajes": [
             "php",
             "laravel",
@@ -75,7 +75,7 @@
     {
         "id": 6,
         "nombre": "ITAcademy - Wiki",
-        "picture": "src/assets/itacademy.jpg",
+        "picture": "/assets/itacademy.jpg",
         "lenguajes": [
             "javaScript",
             "react",

@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "nombre": "App NBA Scores",
+        "picture": "/assets/nbaScores.jpg",
+        "lenguajes": [
+            "html",
+            "css",
+            "javaScript"
+        ],
+        "url": [
+            "https://nba-app-ecommerce-and-games.netlify.app/"
+        ],
+        "descripcion": "descripcion-nba"
+    },
+    {
+        "id": 2,
+        "nombre": "App Starships of Star Wars",
+        "picture": "/assets/starWars.jpg",
+        "lenguajes": [
+            "html",
+            "css",
+            "javaScript",
+            "react"
+        ],
+        "url": [
+            "https://first-project-react-starwars.netlify.app/"
+        ],
+        "descripcion": "descripcion-wars"
+    },
+    {
+        "id": 3,
+        "nombre": "App Pokedex",
+        "picture": "/assets/pokeApi.jpg",
+        "lenguajes": [
+            "html",
+            "css",
+            "javaScript",
+            "react"
+        ],
+        "url": [
+            "https://project-react-pokedex.netlify.app"
+        ],
+        "descripcion": "descripcion-poke"
+    },
+    {
+        "id": 4,
+        "nombre": "Clone web Tesla && La Velada",
+        "picture": "/assets/tesla&&velada.jpg",
+        "lenguajes": [
+            "javaScript",
+            "astro",
+            "tailwind"
+        ],
+        "url": [
+            "https://clone-velada-landing.netlify.app",
+            "https://clone-tesla-landing.netlify.app"
+        ],
+        "descripcion": "descripcion-tesla"
+    },
+    {
+        "id": 5,
+        "nombre": "App Hambgers",
+        "picture": "/assets/hambgers.png",
+        "lenguajes": [
+            "php",
+            "laravel",
+            "angular"
+        ],
+        "url": [
+            "https://github.com/Xerxi88/Hambgers-FullStack"
+        ],
+        "descripcion": "descripcion-hambgers"
+    },
+    {
+        "id": 6,
+        "nombre": "ITAcademy - Wiki",
+        "picture": "/assets/itacademy.jpg",
+        "lenguajes": [
+            "javaScript",
+            "react",
+            "typescript",
+            "node",
+            "styledComponents",
+            "vitest"
+        ],
+        "url": [
+            "https://dev.itawiki.eurecatacademy.org/"
+        ],
+        "descripcion": "descripcion-itacademy"
+    },
+    {
+        "id": 7,
+        "nombre": "Open-Weather-App",
+        "picture": "/assets/Weather-app.jpg",
+        "lenguajes": [
+            "html",
+            "css",
+            "react",
+            "typescript",
+            "vitest"
+        ],
+        "url": [
+            "https://xerxi88-weather-app.netlify.app/"
+        ],
+        "descripcion": "descripcion-open-weahter"
+    }
+]

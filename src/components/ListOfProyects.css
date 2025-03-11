@@ -1,0 +1,17 @@
+:root {
+  --cards: 6;
+  --cardsHeight: 50vh;
+  --cardsTopPadding: 1.5em;
+  --cardsMargin: 20vw;
+}
+
+.proyects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--cardsMargin);
+  padding-bottom: calc(var(--cards) * var(--cardsTopPadding));
+  margin-bottom: var(--cardsMargin);
+  list-style: none;
+}

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-tra {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.training {
+  display: grid;
+  justify-content: center;
+}
+
+.training ul {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.5em;
+}
+
+.training li {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.training li:hover {
+  border: 1px solid rgba(124, 124, 124, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.training li header {
+  margin: 0.6em;
+  display: flex;
+}
+
+.training li main {
+  margin: 0.6em;
+  display: flex;
+}
+
+h5 {
+  font-weight: 800;
+  color: aqua;
+}
+
+.training-description {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.course-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.languages-courses {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.training li main span {
+  background-color: rgba(11, 63, 63, 0.8);
+  color: aqua;
+  font-weight: bold;
+  font-size: 0.6em;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.skills-list {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 0.2rem;
+  text-align: center;
+}
+
+.skill {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1.2em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.skill:hover {
+  border: 1px solid aqua;
+}
+
+.skill-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.skills img {
+  width: 70px;
+  height: 70px;
+  border-radius: 0;
+}
+
+.skills h2 {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container-tra {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .skills h2 {
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .container-tra {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .skills {
+    padding: 0rem 1rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .skills-list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .training ul {
+    height: auto;
+    padding: 2.5rem 0rem;
+  }
+
+  .training li {
+    width: 95%;
+  }
+
+  .skills {
+    padding: 0rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .training ul {
+    padding-top: 4.5rem;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .skills img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container-tra {
+    gap: 0;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .skills img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-tra {
+    margin-bottom: 200px;
+  }
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills img {
+    width: 30px;
+    height: 30px;
+  }
+}

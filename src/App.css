@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+  scrollbar-width: none;
+}
+
+body {
+  background-image: url("./assets/earth-at-night-view-from-space-4k-wallpaper-1980x1114.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header-body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(0.1rem);
+  padding: 10px;
+  position: fixed;
+  z-index: 99;
+}
+
+.lang {
+  grid-column: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lang img {
+  width: 40px;
+  margin: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.lang img:hover {
+  scale: 110%;
+  box-shadow: 0 4px 8px rgba(254, 246, 82, 0.9);
+}
+
+main {
+  position: relative;
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  height: 10vh;
+  gap: 100px;
+}

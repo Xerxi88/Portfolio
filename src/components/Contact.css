@@ -1,0 +1,210 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.form-body {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 2.5rem;
+  border: 0.5px solid aqua;
+  backdrop-filter: blur(1.5rem);
+  box-shadow: 0 0 1.5rem 0;
+}
+
+aside form {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  gap: 1.2rem;
+}
+
+form input {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-radius: 1rem;
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+form textarea {
+  padding: 1rem;
+  resize: none;
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-radius: 1rem;
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: aqua;
+  opacity: 0.5;
+}
+
+::-moz-placeholder {
+  color: aqua;
+  opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+  color: aqua;
+  opacity: 0.5;
+}
+
+.btn-form {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-form button {
+  padding: 15px 50px;
+  font-size: 1.1rem;
+  border: none;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  padding-top: 10px;
+}
+
+article div {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 1rem 0;
+  padding-left: 8.5rem;
+}
+
+.links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: transparent;
+  border: 0.2rem solid aqua;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: aqua;
+  margin: 1.5rem 1rem 2rem 0;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  box-shadow: 0 0 2rem aqua;
+}
+
+.notification {
+  display: flex;
+  position: absolute;
+  right: 17em;
+  bottom: 3.2em;
+  background-color: aqua;
+  color: black;
+  padding: 0.8rem 2.3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem aqua;
+  font-weight: 600;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.notification.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 1050px) {
+  .form-body {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .form-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .form-body {
+    grid-template-columns: auto;
+    position: relative;
+  }
+  article {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    padding-top: 40px;
+  }
+
+  article div {
+    display: flex;
+    gap: 10px;
+    padding: 0rem 1.5rem;
+    align-items: center;
+  }
+
+  .links a {
+    margin: 0 auto;
+  }
+
+  .notification {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    top: 40px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    height: 50px;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form-container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .form-body {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+  article {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  article div {
+    display: flex;
+    gap: 10px;
+    padding-left: 0rem;
+  }
+  aside form {
+    margin: 0.8rem;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,106 @@
+nav {
+  grid-column: 2;
+  justify-self: center;
+  padding: 5px;
+  margin: 0 10px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  background-color: aqua;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+nav ul li.active {
+  color: aqua;
+}
+
+nav ul li:hover::after,
+nav ul li.active::after {
+  width: 100%;
+}
+
+.hamburguer-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    grid-column: 1;
+    justify-self: start;
+    padding: 5px;
+    margin: 0;
+    padding: 5px 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .hamburguer-menu {
+    display: block;
+    justify-content: start;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 59px;
+    left: -10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(0.1em);
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    transition: transform 0.3s ease;
+    padding: 0px 0px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  nav ul li {
+    text-align: center;
+    margin: 0;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 10px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.open {
+    transform: translateX(-250px);
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+}

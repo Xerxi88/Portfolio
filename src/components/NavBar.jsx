@@ -64,7 +64,7 @@ const NavBar = ({ activeIndex, handleNavClick }) => {
             className={activeIndex === 1 ? "active" : ""}
             onClick={() => handleNavClick(1)}
           >
-            {t(`Sobre mi`)}
+            {t(`Proyectos`)}
           </li>
           <li
             className={activeIndex === 2 ? "active" : ""}
@@ -76,7 +76,7 @@ const NavBar = ({ activeIndex, handleNavClick }) => {
             className={activeIndex === 3 ? "active" : ""}
             onClick={() => handleNavClick(3)}
           >
-            {t(`Proyectos`)}
+            {t(`Sobre mi`)}
           </li>
           <li
             className={activeIndex === 4 ? "active" : ""}

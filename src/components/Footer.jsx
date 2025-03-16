@@ -27,7 +27,7 @@ export const Footer = ({ handleNavClick }) => {
         </div>
         <div className="text-container">
           <p className="text">
-            © 2024 Sergio. {t("Todos los derechos reservados")}
+            © 2025 Sergio. {t("Todos los derechos reservados")}
           </p>
         </div>
       </div>

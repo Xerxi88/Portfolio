@@ -12,7 +12,6 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 
 function App() {
-
   const changeLanguage = (lang) => {
     i18next.changeLanguage(lang);
   };
@@ -58,9 +57,9 @@ function App() {
       </header>
       <main ref={mainRef} className="body-container">
         <Home />
-        <AboutMe />
-        <Training />
         <ListOfProyects />
+        <Training />
+        <AboutMe />
         <Contact />
       </main>
       <footer>
